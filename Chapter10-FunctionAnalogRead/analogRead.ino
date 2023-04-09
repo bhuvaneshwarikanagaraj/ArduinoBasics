@@ -4,13 +4,13 @@ int val=0;
 float voltage=0;
 
 void setup() {
-  
+  Serial.begin(9600);
   pinMode(PinNumber,INPUT);
 }
 
 // the loop function runs over and over again forever
 void loop() {
-    
+
 val= analogRead(PinNumber);
 Serial.println(val);
 //Prints the Analog value

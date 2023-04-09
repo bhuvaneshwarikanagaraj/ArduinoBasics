@@ -1,5 +1,3 @@
-
-
 int PinNumber=8;
 int delayVariable=100;
 void setup() {
