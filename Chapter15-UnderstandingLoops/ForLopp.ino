@@ -10,7 +10,7 @@ void loop(){
     for(int i=0; i<=5 ; i++){
         digitalWrite(YellowPin,HIGH);
         delay(delayTime);
-        digitalWrite(YellowPin,LOW);
+        digitalWrite(YellowPin,LOW);a
     }
 
     for(int j=0 ; j<=2 ; j++){
